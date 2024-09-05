@@ -1,6 +1,6 @@
 import psycopg2
 
-from config import config
+from SQL.Rofls.config import config
 
 print(config())
 #connection = psycopg2.connect(**config())
